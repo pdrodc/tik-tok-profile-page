@@ -247,7 +247,7 @@ li {
 
 .videos-section {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  width: 100%;
+  width: 98%;
   display: flex;
   margin-left: -36.5rem;
   padding-top: 16rem;
@@ -283,22 +283,29 @@ li {
 
 .time {
   display: flex;
-  font-size: 14px;
+  font-size: 12.5px;
   background-color: #1e1e1e;
   padding: 15px;
-  border-radius: 20px;
+  margin-bottom: 5px;
+  border-radius: 10px;
   gap: 1rem;
+}
+
+.time-section{
+  padding: 0px 0px;
 }
 
 .time a {
   color: #fff;
 }
 
-.time a:hover {
+/* .time a:hover {
   transition: all ease-in-out 0.3s;
   color: #777777;
   padding: 10px;
-}
+} */
+
+
 
 .private {
   text-align: center;
@@ -336,4 +343,8 @@ li {
   font-weight: 400;
   font-size: 14px;
   color: #d1d5db;
+}
+
+@media (max-width: 600px) {
+
 }
